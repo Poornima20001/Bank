@@ -1,4 +1,4 @@
-package com.Bankingapplication.Bank.account;
+ package com.Bankingapplication.Bank.account;
 
 import java.util.Optional;
 
