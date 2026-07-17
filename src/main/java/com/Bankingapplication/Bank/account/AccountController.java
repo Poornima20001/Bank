@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class AccountController {
 	@Autowired
 	private Accountinterface accountinter;
-	@PostMapping("/account" )
+	@PostMapping("/accountname" )
 	public AccountResponse createaccount(@RequestBody AccountRequest dto) {
 		return accountinter.createaccount(dto);
 	}
