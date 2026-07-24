@@ -30,8 +30,8 @@ public class TransactionHistory {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Column(name = "account_id")
-   private String AccountId;
+    @Column(name = "account_id", insertable = false, updatable = false)
+private String accountId;
     @Enumerated(EnumType.STRING)
     private TransactionType type;  
 
