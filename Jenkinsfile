@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', credentialsId: 'github_root_crentional', url: 'https://github.com/Poornima20001/Bank.git'
+                git branch: 'main',  url: 'https://github.com/Poornima20001/Bank.git'
             }
         }
         stage('list of comment') {
